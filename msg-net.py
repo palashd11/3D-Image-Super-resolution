@@ -7,33 +7,20 @@ import math
 import scipy.io
 import matplotlib.pyplot as plt
 
-def convolution():
-	#inputs are kernel and high-frequency image
-	#output is the convolution vector or feature map
-	
+#two branches : intensity branch & depth/main branch
 
-def deconvolution():
+#Intensity branch
+#input : high-resolution 2D image
+#returns : downsampled images used for fusion in the depth branch
+#relevant functions : preprocessing, feature_extraction, post_feature_extraction, convolution, pooling
 
-def preprocessing():
 
-def pooling():
 
-def prelu():
 
-def lowpass():
-
-def subimages():
-
-def fusion():
-
-def reconstruction():
-
-def upsampling():
-	#call deconvolution function on a kernel a feature map
-	#add the result of the above to a bias vector
-	#call activation funtion(prelu) on the above and return the output
-
-def feature_extraction():
+#Depth branch
+#input : low-resolution depth map(3d-image)
+#output : super-resolution depth map
+#relevant functions : all
 
 
 
